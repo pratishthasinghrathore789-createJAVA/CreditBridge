@@ -1,5 +1,6 @@
 # CreditBridge
 <img width="1080" height="1285" alt="1000023153" src="https://github.com/user-attachments/assets/e6c2e59a-5708-40c8-8e64-acb441471cb4" />
+
 **Digital Credit Access for Micro-Manufacturers**
 
 CreditBridge is an explainable, alternative-data credit scoring platform for India's MSMEs. It turns utility payments, GST/invoice records, order history and mobile usage into a lender-ready score (0–100, grade A–D), so small manufacturers without collateral or bureau history can qualify for working-capital loans.
