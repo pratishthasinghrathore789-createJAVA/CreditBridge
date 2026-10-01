@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>CreditBridge — Digital Credit Access for Micro-Manufacturers</title>
+<meta name="description" content="CreditBridge — alternative-data credit scoring for micro-manufacturers.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2312161C'/%3E%3Ctext x='32' y='41' text-anchor='middle' font-family='Arial' font-size='24' font-weight='700' fill='%23D9622B'%3ECB%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="cursor-dot" aria-hidden="true"></div><div class="cursor-ring" aria-hidden="true"></div>
+<header class="nav-wrap">
+<nav class="nav shell" aria-label="Primary navigation">
+<a class="brand" href="index.html"><span class="logo-panel nav-logo"><img src="images/logo.jpeg" alt="CreditBridge logo: network arch with a rising arrow and CB monogram" loading="eager"><span>CreditBridge</span></span></a>
+<button class="menu-toggle" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu"><span></span><span></span><span></span></button>
+<div class="nav-links" id="mobile-menu">
+<a href="#problem">Problem</a><a href="#solution">Solution</a><a href="#how">How it Works</a><a href="#score">Get Your Score</a><a href="#architecture">Architecture</a><a href="#impact">Impact</a><a href="#roadmap">Roadmap</a><a href="#team">Team</a>
+<a class="btn btn-small btn-copper magnetic" href="apply.html">Start your application</a>
+</div>
+</nav>
+</header>
+
+<main id="main">
+<section class="hero light section-pad" id="top">
+<canvas id="network" aria-hidden="true"></canvas>
+<div class="hero-grid shell">
+<div class="hero-copy parallax" data-depth=".7">
+<p class="eyebrow">ALTERNATIVE-DATA CREDIT SCORING</p>
+<h1>Digital Credit Access for <span>Micro-Manufacturers</span></h1>
+<p class="lede">Turning utility payments, GST invoices, order history and mobile usage into a lender-ready creditworthiness score — so small manufacturers no longer need collateral to prove they're bankable.</p>
+<div class="hero-actions"><a class="btn btn-copper magnetic" href="apply.html">Start your application <b>→</b></a><a class="btn btn-ghost magnetic" href="#how">See How It Works</a></div>
+<div class="hero-stats"><div><strong>0%</strong><small>Collateral Required</small></div><div><strong>&lt;24h</strong><small>Decision Speed</small></div><div><strong>4</strong><small>Unified Data Streams</small></div></div>
+</div>
+<div class="hero-visual parallax" data-depth=".35">
+<div class="logo-panel hero-logo"><img src="images/logo.jpeg" alt="CreditBridge logo: network arch with a rising arrow and CB monogram" loading="eager"></div>
+<div class="benchmark tilt"><span>LIVE BENCHMARK</span><strong>Score 78 <i>Grade B+</i></strong><small>Working Capital: ₹3.2L Approved</small></div>
+</div>
+</div>
+</section>
+
+<section class="dark section-pad" id="problem">
+<div class="shell problem-layout reveal">
+<div><p class="eyebrow">THE CREDIT GAP</p><h2>Creditworthy manufacturers are invisible to formal lenders</h2><p>Millions of productive micro-enterprises build real economic value every day, yet traditional banking models remain completely blind to their reliability.</p></div>
+<div class="gap-art" aria-label="Illustration of a gap between manufacturers and formal lenders">
+<div class="cliff"><span>Micro-manufacturers</span></div><div class="gap-line"><i></i><i></i><i></i></div><div class="cliff"><span>Formal lenders</span></div>
+</div>
+<div class="problem-stats"><div><strong data-count="40" data-suffix="%">~40%</strong><span>of India's MSME credit demand is unmet by formal lenders</span></div><div><strong>₹20L Cr+</strong><span>estimated MSME credit gap in India</span></div></div>
+<div class="barriers"><article><b>01</b><h3>No formal credit history</h3><p>Most micro-manufacturers operate in cash or informal ledgers, so bureaus have little or nothing to score them on.</p></article><article><b>02</b><h3>Collateral shuts them out</h3><p>Fixed-asset collateral requirements can exclude small manufacturers who do not own qualifying assets.</p></article><article><b>03</b><h3>Underwriting is slow & manual</h3><p>Branch-based document review can take time when working-capital needs are urgent.</p></article></div>
+<p class="footnote">* Illustrative figures based on public MSME credit-gap estimates.</p>
+</div>
+</section>
+
+<section class="light section-pad" id="solution">
+<div class="shell">
+<div class="section-head reveal"><p class="eyebrow">THE BRIDGE ARCHITECTURE</p><h2>A creditworthiness score built from data manufacturers already generate</h2><p>CreditBridge closes the chasm by turning operational signals into an explainable score that lenders can use alongside their existing underwriting.</p></div>
+<div class="bridge-wrap reveal">
+<div class="bridge-label left">COLLECT</div><div class="bridge-label mid">SCORE</div><div class="bridge-label right">DECIDE</div>
+<svg class="bridge-svg" viewBox="0 0 1000 300" role="img" aria-label="Bridge connecting borrower data to lender decision"><path class="bridge-path" d="M40 230 C210 40 360 40 500 220 C640 40 790 40 960 230"/><path class="plank p1" d="M180 185L260 160"/><path class="plank p2" d="M450 215L530 215"/><path class="plank p3" d="M740 160L820 185"/><circle class="marker" cx="40" cy="230" r="7"/></svg>
+</div>
+<div class="benefits"><div>✓ No collateral required <small>Score replaces fixed-asset proof with operational continuity.</small></div><div>✓ Explainable score <small>Lenders can inspect the reason codes behind each result.</small></div><div>✓ Real-time API <small>Designed to plug into existing lender workflows.</small></div><div>✓ Continuously updated <small>Profiles can be recalibrated as new signals arrive.</small></div></div>
+</div>
+</section>
+
+<section class="paper2 section-pad" id="how">
+<div class="shell">
+<div class="section-head reveal"><p class="eyebrow">HOW IT WORKS</p><h2>Four alternative data streams converge into a single, explainable score</h2><p>Hover or focus a stream to see how the signal contributes to the scoring pipeline.</p></div>
+<div class="stream-layout reveal">
+<div class="streams">
+<button class="stream active" data-caption="Operational consistency from electricity payment behaviour."><span>01</span><b>Utility Payments</b><small>Electricity & water bill timeliness</small></button>
+<button class="stream" data-caption="Filing consistency provides a signal of recurring business activity."><span>02</span><b>GST / Invoice Records</b><small>Returns and invoice activity</small></button>
+<button class="stream" data-caption="Repeat orders can indicate demand stability over time."><span>03</span><b>Order History</b><small>Repeat B2B and marketplace activity</small></button>
+<button class="stream" data-caption="Digital transaction activity adds a cash-flow behaviour signal."><span>04</span><b>Mobile / UPI Activity</b><small>Transaction and usage patterns</small></button>
+</div>
+<div class="engine">
+<svg viewBox="0 0 520 260" aria-hidden="true"><path d="M20 45 C170 45 220 125 260 130"/><path d="M20 105 C170 105 220 130 260 130"/><path d="M20 165 C170 165 220 135 260 130"/><path d="M20 225 C170 225 220 145 260 130"/><circle cx="260" cy="130" r="42"/><text x="260" y="125" text-anchor="middle">SCORE</text><text x="260" y="145" text-anchor="middle">ENGINE</text></svg>
+<p id="stream-caption">Operational consistency from electricity payment behaviour.</p>
+<div class="outcome"><span>0–100</span><b>Explainable score</b><span>→ Lender decision</span></div>
+</div>
+</div>
+</div>
+</section>
+
+<section class="dark spotlight section-pad" id="score">
+<div class="shell score-layout reveal">
+<div class="stepper"><p class="eyebrow">THE SCORING MODEL</p><h2>Explainable, structured, and based on business data.</h2><ol><li><b>01</b><span>Data ingestion</span></li><li><b>02</b><span>Feature scoring</span></li><li><b>03</b><span>Weighted score</span></li><li><b>04</b><span>Reason codes</span></li></ol></div>
+<div class="score-card tilt"><span class="eyebrow">MSME CREDIT ASSESSMENT</span><h3>Get your CreditBridge score from your own business data</h3><p>Connect self-reported operational figures to generate a deterministic prototype score and lender matching view.</p><div class="mini-data"><span>GST filing</span><span>Electricity</span><span>UPI activity</span></div><div class="card-actions"><a class="btn btn-copper magnetic" href="apply.html">Start your application</a><a class="btn btn-outline magnetic" href="lenders.html">View lenders</a><a class="btn btn-outline magnetic" href="lender-queue.html">Lender portal</a></div></div>
+</div>
+</section>
+
+<section class="light section-pad" id="architecture">
+<div class="shell">
+<div class="section-head reveal"><p class="eyebrow">SYSTEM ARCHITECTURE</p><h2>Consent-based data pipeline built for scale and auditability</h2></div>
+<div class="pipeline reveal"><article><span>01</span><b>Data Layer</b><small>Consent-driven source inputs</small></article><i></i><article><span>02</span><b>Processing Layer</b><small>Clean and normalize signals</small></article><i></i><article><span>03</span><b>Scoring Layer</b><small>Score + reason codes</small></article><i></i><article><span>04</span><b>Access Layer</b><small>Lender-facing API workflow</small></article></div>
+<div class="consent-banner">Explicit consent · Secure feature store · Explainable scoring · Lender origination API</div>
+</div>
+</section>
+
+<section class="paper2 section-pad" id="wins">
+<div class="shell">
+<div class="section-head reveal"><p class="eyebrow">WHY CREDITBRIDGE WINS</p><h2>Built specifically for the realities of micro-manufacturing</h2></div>
+<div class="editorial-list reveal">
+<article><b>01</b><div><h3>Explainable, not a black box</h3><p>Every score ships with plain-language reason codes lenders can inspect.</p></div><span>AUDITABLE</span></article>
+<article><b>02</b><div><h3>Real-time & low-cost</h3><p>Cloud-native scoring is designed to reduce manual underwriting friction.</p></div><span>INSTANT</span></article>
+<article><b>03</b><div><h3>Built for manufacturers</h3><p>Features are tuned to production cycles and B2B order patterns.</p></div><span>TAILORED</span></article>
+<article><b>04</b><div><h3>Plugs into existing rails</h3><p>A single API can integrate with existing loan-origination workflows.</p></div><span>SEAMLESS</span></article>
+</div>
+</div>
+</section>
+
+<section class="dark spotlight section-pad" id="impact">
+<div class="shell impact reveal"><div class="section-head"><p class="eyebrow">PROJECTED IMPACT</p><h2>What inclusive, data-driven underwriting could unlock</h2><p>Projected metrics based on credit modeling simulations and alternative underwriting pilots.</p></div>
+<div class="impact-grid"><div><strong>3–4x</strong><span>more MSMEs become loan-eligible without pledging collateral</span></div><div><strong>70%</strong><span>faster time-to-decision vs. manual branch underwriting</span></div><div><strong>30%</strong><span>potential reduction in lender default risk via richer signals</span></div><div><strong>&lt;24 hrs</strong><span>from application to funded working-capital loan</span></div></div></div>
+</section>
+
+<section class="light section-pad" id="roadmap">
+<div class="shell roadmap-layout reveal">
+<div><p class="eyebrow">BUSINESS MODEL & ROADMAP</p><h2>A path from pilot to pan-India scale</h2><div class="ledger"><div><b>Per-score API fee</b><span>Banks & NBFCs</span></div><div><b>SaaS licensing</b><span>Underwriting Desks</span></div><div><b>Portfolio analytics</b><span>DFIs & Apex Regulators</span></div></div></div>
+<div class="roadmap"><svg viewBox="0 0 600 180" aria-hidden="true"><path d="M35 135 C180 20 260 150 360 75 S510 30 565 45"/><circle id="road-marker" cx="35" cy="135" r="8"/></svg><div class="phase"><button data-x="35" data-y="135">01 <b>Pilot Validation</b></button><button data-x="300" data-y="95">02 <b>Partnership Expansion</b></button><button data-x="565" data-y="45">03 <b>Pan-India Scale</b></button></div></div>
+</div>
+</section>
+
+<section class="dark section-pad" id="team">
+<div class="shell team reveal"><div class="section-head"><p class="eyebrow">THE BUILDERS</p><h2>Team Nexora</h2><p>Project: CreditBridge · Built for the MAITRON Hackathon under the MSME Digital Credit Access Track.</p></div>
+<div class="hack-meta"><span>HACKATHON: MAITRON</span><span>TRACK: Software</span><span>THEME: SDG 9 (Industry, Innovation & Infrastructure)</span><span>PROBLEM STATEMENT: MSME Digital Credit Access</span></div>
+<div class="team-grid"><article class="tilt"><i>OJ</i><h3>Ojas</h3></article><article class="tilt"><i>PR</i><h3>Pratishtha Singh Rathore</h3></article><article class="tilt"><i>PG</i><h3>Parth Gupta</h3></article><article class="tilt"><i>SB</i><h3>Saurabh</h3></article></div></div>
+</section>
+
+<section class="light section-pad closing"><div class="shell reveal"><p class="eyebrow">MSME INCLUSION INITIATIVE</p><h2>Let's make every manufacturer bankable</h2><p>CreditBridge turns everyday business activity into the credit history millions of micro-manufacturers never had the chance to build.</p><a class="btn btn-copper magnetic" href="apply.html">Start your application →</a></div></section>
+</main>
+
+<footer class="footer"><div class="shell footer-inner"><div class="logo-panel footer-logo"><img src="images/logo.jpeg" alt="CreditBridge logo: network arch with a rising arrow and CB monogram" loading="eager"></div><div><b>CreditBridge</b><span>Alternative-Data Credit Scoring for Micro-Manufacturers</span></div><div><span>Team Nexora • MSME Digital Credit Access Track</span><span>Hackathon Submission • MAITRON</span></div><a href="#top">Back to top ↑</a></div></footer>
+<script src="js/main.js"></script>
+</body></html>
